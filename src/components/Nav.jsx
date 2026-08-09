@@ -23,7 +23,19 @@ export default function Nav() {
   }, []);
 
   return (
-    <nav className={`nav ${scrolled ? 'nav-scrolled' : ''}`}>
+    <nav
+  className={`nav ${scrolled ? 'nav-scrolled' : ''}`}
+  style={
+    scrolled
+      ? {
+          background: 'rgba(18, 17, 16, 0.6)',
+          backdropFilter: 'blur(20px) saturate(160%)',
+          WebkitBackdropFilter: 'blur(20px) saturate(160%)',
+          mixBlendMode: 'normal',
+        }
+      : undefined
+  }
+>
       <a className="nav-mark" href="#top"></a>
       <ul className="nav-links">
         {links.map(([label, href]) => (
