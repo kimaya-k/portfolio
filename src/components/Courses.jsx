@@ -20,8 +20,8 @@ export default function Courses() {
         <p>Taking the best courses of action.</p>
       </Reveal>
 
-      {/* Flowchart — desktop */}
-      <div className="courses-flowchart">
+      {/* Flowchart — desktop — single Reveal so everything appears together */}
+      <Reveal as="div" delay={0.1} className="courses-flowchart">
         <svg className="courses-connector-svg" viewBox="0 0 100 100">
           {courses.map((course, index) => {
             const { x, y } = getPosition(index, courses.length);
@@ -42,7 +42,7 @@ export default function Courses() {
           className="course-cloud-wrap"
           style={{ left: '50%', top: `${CENTER_Y}%` }}
         >
-          <Reveal as="div" delay={0.1} className="course-cloud">
+          <div className="course-cloud">
             <svg viewBox="0 0 200 120" className="course-cloud-svg" aria-hidden="true">
               <path d="M40,90
                        a24,24 0 0,1 0,-48
@@ -52,7 +52,7 @@ export default function Courses() {
                        z" />
             </svg>
             <span className="course-cloud-label">CS</span>
-          </Reveal>
+          </div>
         </div>
 
         {courses.map((course, index) => {
@@ -63,13 +63,13 @@ export default function Courses() {
               style={{ left: `${x}%`, top: `${y}%` }}
               key={course}
             >
-              <Reveal as="div" delay={0.15 + index * 0.05} className="course-bubble">
+              <div className="course-bubble">
                 <span className="course-bubble-text">{course}</span>
-              </Reveal>
+              </div>
             </div>
           );
         })}
-      </div>
+      </Reveal>
 
       {/* Grid fallback — mobile */}
       <div className="courses-grid">

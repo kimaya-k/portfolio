@@ -1,6 +1,5 @@
 import './components.css';
 import ScrollProgress from './components/ScrollProgress';
-import CustomCursor from './components/CustomCursor';
 import ParticleField from './components/ParticleField';
 import Nav from './components/Nav';
 import Hero from './components/Hero';
@@ -17,7 +16,6 @@ export default function App() {
     <>
       <ParticleField />
       <ScrollProgress />
-      <CustomCursor />
       <Nav />
       <Hero />
       {/* <About /> */}
