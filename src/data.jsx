@@ -193,6 +193,13 @@ export const involvement = [
     note: 'Awarded for academic achievement and community engagement, mentoring STEM students on technical and professional development as they transition into computer science education.',
   },
   {
+    role: 'Youth Research Collaborator',
+    org: 'Social Dynamics and Well-Being Lab, Georgia Tech',
+    mark: { text: 'S', color: '#3d4f6b', logo: 'logos/socweb.jpg' },
+    date: 'Aug 2026 — Present',
+    note: 'Contributing to literature reviews, study design, AI evaluation criteria, and safety test cases. Analyzing synthetic and aggregated research materials to assess AI support for youth wellbeing research.',
+  },
+  {
     role: 'Project Mentor',
     org: 'Purdue LaunchPad',
     mark: { text: 'LP', color: '#3d6b4f', logo: 'logos/launchpad.jpg' },
