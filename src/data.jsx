@@ -61,6 +61,16 @@ export const experience = [
     ],
   },
   {
+    role: 'Research Assistant',
+    org: 'STyGIANet @ Purdue',
+    mark: { text: 'S', color: '#3d4f6b', logo: 'logos/stygianet.jpg' },
+    date: 'Aug 2026 — Present',
+    tags: ['Distributed Systems', 'GPU Optimization', 'Agentic Search', 'Python', 'vLLM'],
+    points: [
+      'Conducting research with Prof. Addanki and Ishan Bhat to develop an agentic search framework for optimizing collective communication in distributed GPU systems. Exploring topology-aware scheduling using node bandwidths, link latencies, and send-receive dependencies to minimize communication time and propagation delay.',
+    ],
+  },
+  {
     role: 'Student Developer',
     org: 'Dow Chemical — Data Mine Corporate Partners',
     mark: { text: 'D', color: '#7a3b30', logo: 'logos/dow.png' },
