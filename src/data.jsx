@@ -52,16 +52,6 @@ export const experience = [
   },
   {
     role: 'Research Assistant',
-    org: 'Tech Justice Lab',
-    mark: { text: 'TJ', color: '#3d4f6b', logo: 'logos/techjusticelab.jpg' },
-    date: 'Nov 2025 — Present',
-    tags: ['Privacy', 'LLMs', 'Automated Inference'],
-    points: [
-      'Researched under Prof. Hanshen Xiao and PhD candidate Y. Du. on automated profile-inference attacks by LLMs by extending multimodal agentic profiling frameworks and designing pipelines to evaluate privacy leakage and de-anonymization risks across real and synthetic datasets.',
-    ],
-  },
-  {
-    role: 'Research Assistant',
     org: 'STyGIANet @ Purdue',
     mark: { text: 'S', color: '#3d4f6b', logo: 'logos/stygianet.jpg' },
     date: 'Aug 2026 — Present',
