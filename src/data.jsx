@@ -190,7 +190,7 @@ export const involvement = [
     org: 'Women in Science Program, Purdue',
     mark: { text: 'W', color: '#6b3fa0', logo: 'logos/wisp.jpg' },
     date: 'Aug 2026 — Present',
-    note: 'Awarded for academic achievement and community engagement, mentoring STEM students on technical and professional development as they transition into computer science education.',
+    note: 'Jandos Scholarship recipient awarded for academic achievement and community engagement, mentoring STEM students on technical and professional development as they transition into computer science education.',
   },
   {
     role: 'Youth Research Collaborator',
